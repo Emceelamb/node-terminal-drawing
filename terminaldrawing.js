@@ -7,7 +7,7 @@ process.stdin.emit('data', "module.exports.repl.ignoreUndefined = true;\n");
 
 // reset console
 clear = function () {
-  return process.stdout.write('\033c');
+  process.stdout.write('\033c');
 }
 // console.log('console reset loaded...')
 
