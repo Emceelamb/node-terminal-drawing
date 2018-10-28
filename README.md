@@ -1,4 +1,5 @@
 # node-terminal drawing
+This is a wrapper for live coding terminal drawings.
 
 ## Instructions
 
@@ -16,4 +17,4 @@ Useful commands
 
 `sleep(500);` to sleep;
 
-Uses color package!
+Uses [colors] (https://www.npmjs.com/package/colors "link to colors npm page") package!
